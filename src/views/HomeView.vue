@@ -8,13 +8,14 @@
 
  
   
-    <div class="input-group   fixed-bottom" >
+    <div class="input-group   fixed-bottom " style="margin-bottom: 15px; margin-right: 15px;"  >
     <input  type="text" class="form-control" v-model="mess" placeholder="لطفا تایپ نمایید" v-on:keyup.enter="sendMessage()"/>
  
 <div class="input-group-prepend">
    <button v-on:click="sendMessage()" class="btn btn-primary ">ارسال</button>
   </div>
 </div>
+
 
    <br>
     <span v-show="visibale">ارتباط با موفقیت انجام شد</span>
