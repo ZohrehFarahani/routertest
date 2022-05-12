@@ -8,7 +8,7 @@
 
  
   
-    <div class="input-group   fixed-bottom " style="margin-bottom: 15px; margin-right: 15px;"  >
+    <div class="input-group   fixed-bottom " style="margin-bottom: 15px;width:80%;margin-right:150px;"    >
     <input  type="text" class="form-control" v-model="mess" placeholder="لطفا تایپ نمایید" v-on:keyup.enter="sendMessage()"/>
  
 <div class="input-group-prepend">
